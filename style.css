@@ -8,3 +8,26 @@ Version: v0.0.1
 Template: twentytwelve
 */
 @import url("../twentytwelve/style.css");
+.site-header hgroup {
+  padding-left: 250px;
+  padding-top: 15px;
+  background: transparent url("./img/site_logo.png") no-repeat top left;
+  height: 192px;
+  margin-bottom: -115px;
+}
+.site-header .main-navigation {
+  background: rgba(255,255,255,0.7);
+}
+@media screen and (max-width: 600px) {
+  .site-header hgroup {
+    padding-top: 130px;
+    padding-left: 0;
+    background-position: center 10px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .site-header hgroup h1,
+  .site-header hgroup h2 {
+    background: rgba(255,255,255,0.7);
+  }
+}
