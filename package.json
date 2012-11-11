@@ -1,6 +1,6 @@
 {
   "name": "WordPress-theme",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "index.js",
   "dependencies": {
     "nib": "~0.8.2",
