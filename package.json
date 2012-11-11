@@ -1,0 +1,19 @@
+{
+  "name": "WordPress-theme",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "nib": "~0.8.2",
+    "stylus": "~0.30.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/stylus/bin/stylus -w --include ./node_modules/nib/lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AndroidThermostat/WordPress-theme.git"
+  },
+  "license": "BSD",
+  "description": "WordPress theme for Android Thermostat"
+}
